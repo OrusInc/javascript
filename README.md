@@ -1274,7 +1274,7 @@ Prefer template strings over concatenation when building up strings.
 ```javascript
 // Not so good
 function sayHello(name) {
-  return ['What's up, ', name, '?'].join();
+  return ['What\'s up, ', name, '?'].join();
 }
 
 
